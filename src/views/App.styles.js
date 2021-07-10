@@ -1,6 +1,23 @@
-import styled from 'styled-components';
+import styled, { keyframes }  from 'styled-components';
 
-
+const appear = keyframes`
+    from {opacity: 0;}
+    to {opacity: 1;}`
+const falling = keyframes`
+    0% {transform: translateY(0px);}
+    40% {transform: translateY(-20px);}
+    100% {transform: translateY(1000px);}`
+const moveLogo = keyframes`
+    0% {opacity: 1; transform: translateX(0)}
+    30% {opacity: 0; transform: translateX(0)}
+    70% {opacity: 0; transform: translateX(700px);}
+    100% {opacity: 1; transform: translateX(700px);}`
+const textFall = keyframes`
+    0%{}
+    30% { transform: rotate(45deg); }
+    60% { transform: rotate(27deg); }
+    80% { transform: rotate(40deg); }
+    100% { transform: translateY(1000px) }`
 export const View = styled.div`
     position: relative;
     width: 100vw;
@@ -17,8 +34,19 @@ export const View = styled.div`
         z-index: 2;
         margin-top: 50px;
         margin-left: 50px;
+        opacity: 0;
+        animation-name: ${ appear };
+        animation-fill-mode: forwards;
+        animation-duration: 6s;
+        animation-delay: 1s;
     }
-    button {
+    .logoCenter {
+        opacity: 1;
+        animation-name: ${ moveLogo };
+        animation-duration: 6s;
+        animation-fill-mode: both;
+    }
+    .buttonInit {
         position: absolute;
         width: 668px;
         height: 138px;
@@ -32,8 +60,20 @@ export const View = styled.div`
         background: linear-gradient(0.25turn, #b30000cd 25%, #b3008ccd);
         text-shadow: 3px 3px 5px rgba(0,0,0,0.75);
         box-shadow: 11px 11px 22px 1px rgba(0,0,0,0.76);
+        opacity: 0;
+        animation-name: ${ appear };
+        animation-fill-mode: forwards;
+        animation-duration: 6s;
     }
-    .text{
+    .buttonInit:hover {
+        cursor: pointer;
+    }
+    .buttonDown {
+        opacity: 1;
+        animation-name: ${ falling };
+        animation-duration: 1s;
+    }
+    .text {
         position: absolute;
         color: #ffffff;
         font-size: 60px;
@@ -42,6 +82,17 @@ export const View = styled.div`
         right: 50px;
         top: 50px;
         text-shadow: 3px 3px 5px rgba(0,0,0,0.75);
+        opacity: 0;
+        animation-name: ${ appear };
+        animation-fill-mode: forwards;
+        animation-duration: 6s;
+        animation-delay: 1s;
     }
+    .appearText {
+        opacity: 1;
+        animation-name: ${ textFall };
+
+    }
+}
 `;
 
