@@ -1,6 +1,8 @@
-import styled from 'styled-components';
+import styled, { keyframes }  from 'styled-components';
 
-
+const appear = keyframes` {
+    from { opacity: 0; }
+    to { opacity: 1; }`
 export const View = styled.div`
     position: relative;
     width: 100vw;
@@ -17,6 +19,11 @@ export const View = styled.div`
         z-index: 2;
         margin-top: 50px;
         margin-left: 50px;
+        opacity: 0;
+        animation-name: ${ appear };
+        animation-fill-mode: forwards;
+        animation-duration: 6s;
+        animation-delay: 1s;
     }
     button {
         position: absolute;
@@ -32,6 +39,11 @@ export const View = styled.div`
         background: linear-gradient(0.25turn, #b30000cd 25%, #b3008ccd);
         text-shadow: 3px 3px 5px rgba(0,0,0,0.75);
         box-shadow: 11px 11px 22px 1px rgba(0,0,0,0.76);
+        opacity: 0;
+        animation-name: ${ appear };
+        animation-fill-mode: forwards;
+        animation-duration: 6s;
+        animation-delay: 1s;
     }
     .text{
         position: absolute;
@@ -42,6 +54,12 @@ export const View = styled.div`
         right: 50px;
         top: 50px;
         text-shadow: 3px 3px 5px rgba(0,0,0,0.75);
+        opacity: 0;
+        animation-name: ${ appear };
+        animation-fill-mode: forwards;
+        animation-duration: 6s;
+        animation-delay: 1s;
+    }
     }
 `;
 
