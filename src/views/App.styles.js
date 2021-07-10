@@ -1,8 +1,12 @@
 import styled, { keyframes }  from 'styled-components';
 
-const appear = keyframes` {
+const appear = keyframes`
     from { opacity: 0; }
     to { opacity: 1; }`
+const falling = keyframes`
+    0% {transform: translateY(0px);}
+    40% {transform: translateY(-20px);}
+    100% {transform: translateY(1000px); }`
 export const View = styled.div`
     position: relative;
     width: 100vw;
@@ -25,7 +29,7 @@ export const View = styled.div`
         animation-duration: 6s;
         animation-delay: 1s;
     }
-    button {
+    .buttonInit {
         position: absolute;
         width: 668px;
         height: 138px;
@@ -43,7 +47,14 @@ export const View = styled.div`
         animation-name: ${ appear };
         animation-fill-mode: forwards;
         animation-duration: 6s;
-        animation-delay: 1s;
+    }
+    .buttonInit:hover {
+        cursor: pointer;
+    }
+    .buttonDown {
+        opacity: 1;
+        animation-name: ${ falling };
+        animation-duration: 1s;
     }
     .text{
         position: absolute;
