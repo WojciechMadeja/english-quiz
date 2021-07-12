@@ -10,8 +10,8 @@ const falling = keyframes`
 const moveLogo = keyframes`
     0% {opacity: 1; transform: translateX(0)}
     30% {opacity: 0; transform: translateX(0)}
-    70% {opacity: 0; transform: translateX(700px);}
-    100% {opacity: 1; transform: translateX(700px);}`
+    70% {opacity: 0; transform: translateX(740px);}
+    100% {opacity: 1; transform: translateX(740px);}`
 const textFall = keyframes`
     0%{}
     30% { transform: rotate(45deg); }
@@ -52,7 +52,7 @@ export const View = styled.div`
         height: 138px;
         border-radius: 30px;
         z-index: 3;
-        left: 33vw;
+        left: 32vw;
         top: 65vh;
         font-size: 3em;
         font-weight: bold;
