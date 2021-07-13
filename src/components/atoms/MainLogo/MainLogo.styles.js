@@ -9,7 +9,7 @@ const moveLogo = keyframes`
     70% {opacity: 0; transform: translateX(740px);}
     100% {opacity: 1; transform: translateX(740px);}`
 
-export const Styled = styled.img`
+export const Wrapper = styled.img`
     position: absolute;
     z-index: 2;
     margin-top: 50px;
