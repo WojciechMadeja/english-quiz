@@ -13,11 +13,6 @@ export const View = styled.div`
     height: 100vh;
     z-index- -1;
     background-color: rgba(55,55,226,1);
-    .back {
-        position: absolute;
-        width: 100vw;
-        z-index: 0;
-    }
     .buttonInit {
         position: absolute;
         width: 668px;
