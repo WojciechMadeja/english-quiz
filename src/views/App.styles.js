@@ -7,11 +7,6 @@ const falling = keyframes`
     0% {transform: translateY(0px);}
     40% {transform: translateY(-20px);}
     100% {transform: translateY(1000px);}`
-const moveLogo = keyframes`
-    0% {opacity: 1; transform: translateX(0)}
-    30% {opacity: 0; transform: translateX(0)}
-    70% {opacity: 0; transform: translateX(740px);}
-    100% {opacity: 1; transform: translateX(740px);}`
 const textFall = keyframes`
     0%{}
     30% { transform: rotate(45deg); }
@@ -28,23 +23,6 @@ export const View = styled.div`
         position: absolute;
         width: 100vw;
         z-index: 0;
-    }
-    .logo {
-        position: absolute;
-        z-index: 2;
-        margin-top: 50px;
-        margin-left: 50px;
-        opacity: 0;
-        animation-name: ${ appear };
-        animation-fill-mode: forwards;
-        animation-duration: 6s;
-        animation-delay: 1s;
-    }
-    .logoCenter {
-        opacity: 1;
-        animation-name: ${ moveLogo };
-        animation-duration: 6s;
-        animation-fill-mode: both;
     }
     .buttonInit {
         position: absolute;
