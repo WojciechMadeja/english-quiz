@@ -1,9 +1,8 @@
-import './App.styles.js'
 import { View } from './App.styles'
-import MainLogo from '../components/atoms/MainLogo/MainLogo'
 import { useState } from 'react'
-import StartText from '../components/atoms/StartText/StartText.js'
 import BackgroundHello from '../components/atoms/BackgroundHello/BackgroundHello.js'
+import StartTemplate from '../components/templates/StartTemplate/StartTemplate.js'
+
 
 function App() {
   const [stateButton, setStateButton] = useState(false)
@@ -11,10 +10,7 @@ function App() {
     <>
     <View>
       <BackgroundHello />
-      <MainLogo stateButton = { stateButton } />
-      <StartText stateButton = { stateButton } />
-      <button className = { !stateButton ? "buttonInit" : "buttonInit buttonDown" } onClick= { () => setStateButton(!stateButton)} >START</button>
-
+      <StartTemplate stateButton = { stateButton } setStateButton={ setStateButton } />
     </View>
     </>
   );
