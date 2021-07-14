@@ -1,7 +1,10 @@
 import { View } from './App.styles'
 import { useState } from 'react'
-import BackgroundHello from '../components/atoms/BackgroundHello/BackgroundHello.js'
-import StartTemplate from '../components/templates/StartTemplate/StartTemplate.js'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import BackgroundHello from '../components/atoms/BackgroundHello/BackgroundHello'
+import StartTemplate from '../components/templates/StartTemplate/StartTemplate'
+import GameTemplate from '../components/templates/GameTemplate/GameTemplate'
+import MotivatingCat from '../components/organisms/MotivatingCat/MotivatingCat'
 
 
 function App() {
@@ -10,7 +13,17 @@ function App() {
     <>
     <View>
       <BackgroundHello />
-      <StartTemplate stateButton = { stateButton } setStateButton={ setStateButton } />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <StartTemplate stateButton = { stateButton } setStateButton={ setStateButton } />
+          </Route>
+          <Route path="/game">
+            <GameTemplate stateButton = { stateButton } />
+          </Route>
+        </Switch>
+      </Router>
+      <MotivatingCat />
     </View>
     </>
   );
