@@ -5,9 +5,9 @@ const appear = keyframes`
     to {opacity: 1;}`
 
 const falling = keyframes`
-    0% {transform: translateY(0px);}
-    40% {transform: translateY(-20px);}
-    100% {transform: translateY(1000px);}`
+    0% {transform: translateX(-50%) translateY(0px);}
+    40% {transform: translateX(-50%) translateY(-20px);}
+    100% {transform: translateX(-50%) translateY(1000px);}`
 
 export const Wrapper = styled.button`
     position: absolute;
@@ -15,8 +15,9 @@ export const Wrapper = styled.button`
     height: 138px;
     border-radius: 30px;
     z-index: 3;
-    left: 32vw;
     top: 65vh;
+    left: 50%;
+    transform: translate(-50%, 0);
     font-size: 3em;
     font-weight: bold;
     color: #ffffff;  
