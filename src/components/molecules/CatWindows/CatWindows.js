@@ -7,7 +7,7 @@ function CatWindows({ isOpen }) {
     } else {
         return(
             <Wrapper>
-                <CatPicture />
+                <CatPicture isOpen= { isOpen } />
             </Wrapper>
         );
     }
