@@ -1,11 +1,11 @@
 import { Wrapper } from './MainLogo.styles'
 
-import logo from '../../../assets/logo.svg'
+import Logo from '../../../assets/logo.js'
 
 function MainLogo({ stateButton }){
 
     return(
-        <Wrapper stateButton = { stateButton } logo src={ logo } />
+        <Wrapper stateButton = { stateButton } ><Logo /></Wrapper>
     );
 }
 
