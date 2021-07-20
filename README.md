@@ -1,6 +1,11 @@
-## English Quiz
+# English Quiz
 
 ![Start App](./screenshots/startmenu.png "Start Quiz")
+##
+![Loading](./screenshots/loading.png "Loading picture with cat")
+##
+![Cat picture](./screenshots/buttoncat.png "Picture with cat")
+##
 
 # Getting Started with Create React App
 
