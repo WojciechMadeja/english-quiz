@@ -1,5 +1,13 @@
 # English Quiz
 
+English Quiz is a web application that aims to improve your English language learning. The first stage of work on the project is to program the game as follows:
+the player must choose the correct answer to the question related to the currently displayed photo. He has two hints at his disposal.
+If the answer is correct, the participant gets a point, and in the case of a wrong answer, he loses one of the three lives received at the start.
+At any time, the participant can use the "Motivation Cat" button, thanks to which he will display a random photo of a cat and pause the quiz.
+
+
+
+
 ![Start App](./screenshots/startmenu.png "Start Quiz")
 ##
 ![Loading](./screenshots/loading.png "Loading picture with cat")
