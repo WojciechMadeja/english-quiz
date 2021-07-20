@@ -12,6 +12,7 @@ export const Wrapper = styled.div`
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
+    box-shadow: 11px 11px 22px 1px rgba(0,0,0,0.76);
     opacity: 0;
     animation-name: ${appear};
     animation-duration: 6s;
