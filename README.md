@@ -6,10 +6,10 @@ If the answer is correct, the participant gets a point, and in the case of a wro
 At any time, the participant can use the "Motivation Cat" button, thanks to which he will display a random photo of a cat and pause the quiz.
 The application is created using React.js, Styled Components and UI of my own project in Figma and Inkscape.
 
-[![node.js version](https://img.shields.io/badge/node.js-LTS%2014.17.x-brightgreen)](https://nodejs.org/en/download/)
-[![create-react-app version](https://img.shields.io/badge/create--react--app-4.0.3-brightgreen?logo=nodedotjs)](https://github.com/facebook/create-react-app)
-[![react-router-dom version](https://img.shields.io/badge/react--router--dom-5.2.0-brightgreen)](https://badge.fury.io/js/react-router-dom)
-[![react-router-dom version](https://img.shields.io/badge/styled--components-5.3.0-brightgreen)](https://badge.fury.io/js/styled-components)
+[![node.js version](https://img.shields.io/badge/node.js-LTS%2014.17.x-brightgreen?logo=nodedotjs)](https://nodejs.org/en/download/)
+[![create-react-app version](https://img.shields.io/badge/create--react--app-4.0.3-brightgreen?logo=react)](https://github.com/facebook/create-react-app)
+[![react-router-dom version](https://img.shields.io/badge/react--router--dom-5.2.0-brightgreen?logo=reactrouter)](https://badge.fury.io/js/react-router-dom)
+[![styled-components-dom version](https://img.shields.io/badge/styled--components-5.3.0-brightgreen?logo=styledcomponents)](https://badge.fury.io/js/styled-components)
 
 ![Start App](./screenshots/startmenu.png "Start Quiz")
 ##
