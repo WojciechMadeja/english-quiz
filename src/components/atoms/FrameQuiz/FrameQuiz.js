@@ -1,4 +1,5 @@
 import PictureQuiz from "../PictureQuiz/PictureQuiz";
+import TekstPictureQuiz from "../TekstPictureQuiz/TekstPictureQuiz";
 import { Wrapper } from "./FrameQuiz.styles";
 
 function FrameQuiz(params) {
@@ -6,6 +7,7 @@ function FrameQuiz(params) {
         <>
         <Wrapper>
             <PictureQuiz />
+            <TekstPictureQuiz />
         </Wrapper>
         
         </>
