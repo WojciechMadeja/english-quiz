@@ -10,6 +10,7 @@ The application is created using React.js, Styled Components and UI of my own pr
 [![create-react-app version](https://img.shields.io/badge/create--react--app-4.0.3-brightgreen?logo=react)](https://github.com/facebook/create-react-app)
 [![react-router-dom version](https://img.shields.io/badge/react--router--dom-5.2.0-brightgreen?logo=reactrouter)](https://badge.fury.io/js/react-router-dom)
 [![styled-components-dom version](https://img.shields.io/badge/styled--components-5.3.0-brightgreen?logo=styledcomponents)](https://badge.fury.io/js/styled-components)
+[![axios version](https://img.shields.io/badge/axios-^0.21.0-brightgreen)](https://www.npmjs.com/package/axios)
 
 ![Start App](./screenshots/startmenu.png "Start Quiz")
 ##
