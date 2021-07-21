@@ -1,10 +1,8 @@
 # **English Quiz**
 
-English Quiz is a web application that aims to improve your English language learning. The first stage of work on the project is to program the game as follows:
-the player must choose the correct answer to the question related to the currently displayed photo. He has two hints at his disposal.
-If the answer is correct, the participant gets a point, and in the case of a wrong answer, he loses one of the three lives received at the start.
-At any time, the participant can use the "Motivation Cat" button, thanks to which he will display a random photo of a cat and pause the quiz.
-The application is created using React.js, Styled Components and UI of my own project in Figma and Inkscape.
+English Quiz is a web application that aims to improve your English language learning. The first stage of work on the project is to program the game as follows: the player must choose the correct answer to the question related to the currently displayed photo. 
+He has two hints at his disposal. If the answer is correct, the participant gets a point. 
+In case of a wrong answer, he loses one of the three lives received at the start. At any time, the participant can use the "Motivation Cat" button, that displays a random photo of a cat and pauses the quiz. The application is created using React.js, Styled Components and UI of my own project in Figma and Inkscape.
 
 [![node.js version](https://img.shields.io/badge/node.js-LTS%2014.17.x-brightgreen?logo=nodedotjs)](https://nodejs.org/en/download/)
 [![create-react-app version](https://img.shields.io/badge/create--react--app-4.0.3-brightgreen?logo=react)](https://github.com/facebook/create-react-app)
