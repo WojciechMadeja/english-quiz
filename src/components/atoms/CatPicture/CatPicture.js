@@ -10,7 +10,8 @@ function CatPicture({ isOpen }) {
         (async ()=> {
             try {
                 const result = await axios.get('https://aws.random.cat/meow');
-                setLink(result.data.file)
+                setLink(result.data.file);
+    
             } catch (error) {
                 console.log(error);
             }

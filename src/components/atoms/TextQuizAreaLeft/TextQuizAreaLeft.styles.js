@@ -4,11 +4,14 @@ const appear = keyframes`
     from {opacity: 0;}
     to {opacity: 1;}`
 
-export const Wrapper = styled.img`
+export const Wrapper = styled.div`
     position: absolute;
     z-index: 3;
-    top: 40%;
-    left: 20%;
+    top: 60%;
+    left: 13%;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
     opacity: 0;
     animation-name: ${appear};
     animation-duration: 6s;
