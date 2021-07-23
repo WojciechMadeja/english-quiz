@@ -11,9 +11,9 @@ function QuizMachine() {
     return(
         <>
         <CounterLives stateLives = { stateLives } />
-        <LeftAreaButton statePoints = { statePoints } setPoints = { setPoints } />
+        <LeftAreaButton statePoints = { statePoints } setPoints = { setPoints } stateLives= { stateLives } setLives = { setLives } />
         <FrameQuiz />
-        <RightAreaButton stateLives= { stateLives } setLives = { setLives }/>
+        <RightAreaButton statePoints = { statePoints } setPoints = { setPoints } stateLives= { stateLives } setLives = { setLives }/>
         <CounterPoints statePoints = { statePoints }/>
         </>
     );

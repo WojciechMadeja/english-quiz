@@ -4,11 +4,11 @@ const appear = keyframes`
     from {opacity: 0;}
     to {opacity: 1;}`
 
-export const Wrapper = styled.img`
-    position: absolute;
+export const Wrapper = styled.div`
+    //position: absolute;
     z-index: 3;
-    top: 40%;
-    left: 20%;
+    //top: 40%;
+   // left: 20%;
     opacity: 0;
     animation-name: ${appear};
     animation-duration: 6s;

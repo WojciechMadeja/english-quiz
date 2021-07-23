@@ -5,10 +5,10 @@ const appear = keyframes`
     to {opacity: 1;}`
 
 export const Wrapper = styled.div`
-    position: absolute;
+    //position: absolute;
     z-index: 3;
-    top: 60%;
-    left: 13%;
+    //top: 60%;
+    //left: 13%;
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 100px;
