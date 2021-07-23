@@ -1,19 +1,20 @@
-import ArrowLeft from "../../atoms/ArrowLeft/ArrowLeft";
-import ArrowRight from "../../atoms/ArrowRight/ArrowRight";
+import CounterLives from "../../molecules/CounterLives/CounterLives";
+import CounterPoints from "../../molecules/CounterPoints/CounterPoints";
 import FrameQuiz from "../../atoms/FrameQuiz/FrameQuiz";
-import PictureQuiz from "../../atoms/PictureQuiz/PictureQuiz";
-import TextQuizAreaLeft from "../../atoms/TextQuizAreaLeft/TextQuizAreaLeft";
-import TextQuizAreaRight from "../../atoms/TextQuizAreaRight/TextQuizRight";
-
+import { useState } from 'react';
+import LeftAreaButton from "../../molecules/LeftAreaButton/LeftAreaButton";
+import RightAreaButton from "../../molecules/RightAreaButton/RightAreaButton";
 
 function QuizMachine() {
+    const [stateLives, setLives] = useState(3);
+    const [statePoints, setPoints] = useState(0);
     return(
         <>
-        <TextQuizAreaLeft />
-        <ArrowLeft />
+        <CounterLives stateLives = { stateLives } />
+        <LeftAreaButton statePoints = { statePoints } setPoints = { setPoints } />
         <FrameQuiz />
-        <ArrowRight />
-        <TextQuizAreaRight />
+        <RightAreaButton stateLives= { stateLives } setLives = { setLives }/>
+        <CounterPoints statePoints = { statePoints }/>
         </>
     );
 }
