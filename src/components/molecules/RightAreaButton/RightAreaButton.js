@@ -3,15 +3,20 @@ import ArrowRight from '../../atoms/ArrowRight/ArrowRight';
 import TextQuizAreaRight from '../../atoms/TextQuizAreaRight/TextQuizRight';
 import { Wrapper } from './RightAreaButton.styles';
 
-function RightAreaButton({ stateLives, setLives, statePoints, setPoints }) {
+function RightAreaButton({ answer, stateLives, setLives, statePoints, setPoints }) {
     const buttonFunction = () => {
-        setPoints(statePoints - 1);
-        setLives(stateLives - 1);
+        if (answer === true){
+            setPoints(statePoints + 1);
+        }
+        if (answer === false){
+            setLives(stateLives - 1);
+        }
+        
     }
     return(
-        <Wrapper onClick = {() => {buttonFunction(); } }>
+        <Wrapper onClick = {() => { buttonFunction(); } }>
             <ArrowRight />
-            <TextQuizAreaRight />
+            <TextQuizAreaRight answer = { answer } />
         </Wrapper>
     );
 }

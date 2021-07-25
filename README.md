@@ -18,7 +18,8 @@ The application is created using React.js, Styled Components and UI of my own pr
 ##
 ![Cat picture](./screenshots/buttoncat.png "Picture with cat")
 ##
-
+![Game](./screenshots/game.png "Game")
+##
 ## Available Scripts
 
 In the project directory, you can run:

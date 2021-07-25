@@ -1,19 +1,26 @@
 import CounterLives from "../../molecules/CounterLives/CounterLives";
 import CounterPoints from "../../molecules/CounterPoints/CounterPoints";
 import FrameQuiz from "../../atoms/FrameQuiz/FrameQuiz";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import LeftAreaButton from "../../molecules/LeftAreaButton/LeftAreaButton";
 import RightAreaButton from "../../molecules/RightAreaButton/RightAreaButton";
 
 function QuizMachine() {
     const [stateLives, setLives] = useState(3);
     const [statePoints, setPoints] = useState(0);
+    const rand = Boolean(Math.round(Math.random()));
+    let answer1 = rand;
+    let answer2 = !answer1;
+    useEffect(()=>{
+        answer1 = rand;
+        answer2 = !answer1;
+    },[]);
     return(
         <>
         <CounterLives stateLives = { stateLives } />
-        <LeftAreaButton statePoints = { statePoints } setPoints = { setPoints } stateLives= { stateLives } setLives = { setLives } />
+        <LeftAreaButton answer = { answer1 } statePoints = { statePoints } setPoints = { setPoints } stateLives= { stateLives } setLives = { setLives } />
         <FrameQuiz />
-        <RightAreaButton statePoints = { statePoints } setPoints = { setPoints } stateLives= { stateLives } setLives = { setLives }/>
+        <RightAreaButton answer = { answer2 } statePoints = { statePoints } setPoints = { setPoints } stateLives= { stateLives } setLives = { setLives }/>
         <CounterPoints statePoints = { statePoints }/>
         </>
     );
