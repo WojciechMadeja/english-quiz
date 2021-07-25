@@ -16,7 +16,8 @@ In case of a wrong answer, he loses one of the three lives received at the start
 ##
 ![Cat picture](./screenshots/buttoncat.png "Picture with cat")
 ##
-
+![Game](./screenshots/game.png "Game")
+##
 ## Available Scripts
 
 In the project directory, you can run:

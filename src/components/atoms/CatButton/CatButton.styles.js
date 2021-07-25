@@ -8,7 +8,4 @@ export const Wrapper = styled.button`
     right: 50px;
     bottom: 50px;
     cursor: pointer;
-    svg {
-        opacity: 1;
-    }
 `

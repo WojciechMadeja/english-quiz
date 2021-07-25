@@ -15,18 +15,26 @@ function Icon() {
           clipPathUnits="userSpaceOnUse"
         ></clipPath>
       </defs>
-      <g transform="translate(191.96 52.397)">
-        <g transform="translate(-194.691 7.503)">
+      <g transform="translate(189.745 17.935)">
+        <g
+          strokeLinejoin="round"
+          strokeWidth="6.26"
+          transform="translate(-194.691 7.503)"
+        >
+          <path
+            fill="#3737e2"
+            fillOpacity="1"
+            d="M4.946 -25.438H512.946V260.312H4.946z"
+            stopColor="#000"
+          ></path>
           <path
             fill="#1a1ab7"
             fillOpacity="0.859"
-            strokeLinejoin="round"
-            strokeWidth="6.26"
             d="M0 0H508V285.75H0z"
             clipPath="url(#clipPath175850-3)"
             opacity="0.525"
             stopColor="#000"
-            transform="translate(2.73 -59.9)"
+            transform="translate(4.946 -25.438)"
           ></path>
         </g>
       </g>
