@@ -4,7 +4,7 @@ const appear = keyframes`
     from {opacity: 0;}
     to {opacity: 1;}`
 
-export const Wrapper = styled.img`
+export const Wrapper = styled.div`
     z-index: 3;
     top: 40%;
     right: 20%;
