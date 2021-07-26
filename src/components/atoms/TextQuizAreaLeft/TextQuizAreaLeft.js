@@ -1,16 +1,18 @@
 import { Wrapper } from './TextQuizAreaLeft.styles'
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function TextQuizAreaLeft({ answer }) {
-    if (answer === true){
+    const [text, setText] = useState('');
+    useEffect(() => {
+        if (answer === true){
+            setText('ELEPHANT');
+        }if (answer === false) {
+            setText('TIGER');
+    }}, [answer]);
+    
         return(
-            <Wrapper> ELEPHANT </Wrapper>
+            <Wrapper> {text} </Wrapper>
         );
-    }if (answer === false) {
-        return(
-            <Wrapper> TIGER </Wrapper>
-        );
-    }
 }
 
 export default TextQuizAreaLeft;
