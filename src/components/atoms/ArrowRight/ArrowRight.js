@@ -1,8 +1,8 @@
 import { Wrapper } from "../ArrowRight/ArrowRight.styles";
-import arrow from '../../../assets/arrowright.svg'
+import Arrow from '../../../assets/arrowright'
 function ArrowRight(params) {
     return(
-        <Wrapper src={arrow}></Wrapper>
+        <Wrapper><Arrow /></Wrapper>
     );
 }
 
