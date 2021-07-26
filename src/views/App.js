@@ -15,7 +15,7 @@ function App() {
       <BackgroundHello />
       <Router>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/english-quiz">
             <StartTemplate stateButton = { stateButton } setStateButton={ setStateButton } />
           </Route>
           <Route path="/game">
