@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/english-quiz/static/css/main.9c2b0077.chunk.css",
-    "main.js": "/english-quiz/static/js/main.9b22d0cd.chunk.js",
-    "main.js.map": "/english-quiz/static/js/main.9b22d0cd.chunk.js.map",
+    "main.js": "/english-quiz/static/js/main.2615780e.chunk.js",
+    "main.js.map": "/english-quiz/static/js/main.2615780e.chunk.js.map",
     "runtime-main.js": "/english-quiz/static/js/runtime-main.c86290a2.js",
     "runtime-main.js.map": "/english-quiz/static/js/runtime-main.c86290a2.js.map",
     "static/js/2.19ccea9f.chunk.js": "/english-quiz/static/js/2.19ccea9f.chunk.js",
@@ -13,15 +13,14 @@
     "static/css/main.9c2b0077.chunk.css.map": "/english-quiz/static/css/main.9c2b0077.chunk.css.map",
     "static/js/2.19ccea9f.chunk.js.LICENSE.txt": "/english-quiz/static/js/2.19ccea9f.chunk.js.LICENSE.txt",
     "static/media/arrowleft.169a1a00.svg": "/english-quiz/static/media/arrowleft.169a1a00.svg",
-    "static/media/arrowright.120f820d.svg": "/english-quiz/static/media/arrowright.120f820d.svg",
     "static/media/elephant.f00a7a94.jpg": "/english-quiz/static/media/elephant.f00a7a94.jpg",
-    "static/media/hello.0b6575c1.png": "/english-quiz/static/media/hello.0b6575c1.png",
+    "static/media/hello.d0e75601.png": "/english-quiz/static/media/hello.d0e75601.png",
     "static/media/loading.df31353b.png": "/english-quiz/static/media/loading.df31353b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c86290a2.js",
     "static/js/2.19ccea9f.chunk.js",
     "static/css/main.9c2b0077.chunk.css",
-    "static/js/main.9b22d0cd.chunk.js"
+    "static/js/main.2615780e.chunk.js"
   ]
 }
