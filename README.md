@@ -11,7 +11,7 @@ The application is created using React.js, Styled Components and UI of my own pr
 [![react-router-dom version](https://img.shields.io/badge/react--router--dom-5.2.0-brightgreen?logo=reactrouter)](https://badge.fury.io/js/react-router-dom)
 [![styled-components-dom version](https://img.shields.io/badge/styled--components-5.3.0-brightgreen?logo=styledcomponents)](https://badge.fury.io/js/styled-components)
 [![axios version](https://img.shields.io/badge/axios-^0.21.0-brightgreen)](https://www.npmjs.com/package/axios)
-
+[![howler version](https://img.shields.io/badge/howler.js-^2.2.3-brightgreen)](https://github.com/goldfire/howler.js)
 ![Start App](./screenshots/startmenu.png "Start Quiz")
 ##
 ![Loading](./screenshots/loading.png "Loading picture with cat")
