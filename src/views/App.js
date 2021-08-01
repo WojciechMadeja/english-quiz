@@ -7,7 +7,8 @@ import MotivatingCat from '../components/organisms/MotivatingCat/MotivatingCat'
 
 
 function App() {
-  const [stateButton, setStateButton] = useState(false)
+  const [stateButton, setStateButton] = useState(false);
+  
   return (
     <>
     <View>
