@@ -1,0 +1,14 @@
+{
+    "object":[
+        {"id":1, "name":"elephant", "category":"animal"},
+        {"id":2, "name":"tiger","category":"animal"},
+        {"id":3, "name":"fox","category":"animal"},
+        {"id":4, "name":"wolf","category":"animal"},
+        {"id":5, "name":"elephant", "category":"animal"},
+        {"id":6, "name":"hippo","category":"animal"},
+        {"id":7, "name":"cow","category":"animal"},
+        {"id":8, "name":"lion","category":"animal"}
+    ]
+}
+
+

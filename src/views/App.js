@@ -1,7 +1,6 @@
 import { View } from './App.styles'
 import { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
 import StartTemplate from '../components/templates/StartTemplate/StartTemplate'
 import GameTemplate from '../components/templates/GameTemplate/GameTemplate'
 import MotivatingCat from '../components/organisms/MotivatingCat/MotivatingCat'
@@ -9,7 +8,7 @@ import MotivatingCat from '../components/organisms/MotivatingCat/MotivatingCat'
 
 function App() {
   const [stateButton, setStateButton] = useState(false);
-
+  
   return (
     <>
     <View>
