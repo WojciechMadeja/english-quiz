@@ -5,7 +5,7 @@ import { Howl } from 'howler';
 import trueAnswer from '../../../assets/true.mp3'
 import wrongAnswer from '../../../assets/false.wav'
 
-function LeftAreaButton({ answer, statePoints, setPoints, stateLives, setLives }) {
+function LeftAreaButton({ answer, statePoints, setPoints, stateLives, setLives, stateTextLeft }) {
     const trueArrow = new Howl ({
         src: [ trueAnswer ],
         volume: 0.2,
@@ -28,7 +28,7 @@ function LeftAreaButton({ answer, statePoints, setPoints, stateLives, setLives }
     return(
         <Wrapper onClick = {() => {buttonFunction();} }>
             <ArrowLeft />
-            <TextQuizAreaLeft answer = { answer }/>
+            <TextQuizAreaLeft stateTextLeft = { stateTextLeft } />
             
         </Wrapper>
     );
